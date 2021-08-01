@@ -15,4 +15,4 @@ plot.update_layout(
     yaxis_title = "Total Federal Debt",
 )
 
-plot.show()
+plot.write_html("index.html")
